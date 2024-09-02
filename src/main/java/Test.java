@@ -49,7 +49,6 @@ import java.lang.reflect.Array;
 public class Test {
     @POST
     public void test() {
-        // THIS WORKS
         GradientField field = GradientField.getField(2);
         final FieldVector3D<Gradient> plusI = FieldVector3D.getPlusI(field);
         final FieldVector3D<Gradient> plusJ = FieldVector3D.getPlusJ(field);
